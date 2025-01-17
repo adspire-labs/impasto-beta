@@ -5295,6 +5295,27 @@ ul {
 
 
 
+#social-links2 {
+  display: flex; /* Puts icons in a row */
+  gap: 15px; /* Space between icons */
+  padding: 10px; /* Add padding around the container */
+  list-style: none; /* Remove bullet points */
+}
+
+#social-links2 li a {
+  display: inline-flex; /* Keeps the icons aligned */
+  justify-content: center; /* Centers horizontally inside the button */
+  align-items: center; /* Centers vertically inside the button */
+  width: 40px; /* Fixed width for the icon button */
+  height: 40px; /* Fixed height for the icon button */
+  border-radius: 50%; /* Makes them circular */
+  text-decoration: none; /* Removes underline */
+  color: white; /* Icon color */
+  font-size: 30px; /* Adjust icon size */
+}
+
+
+
 
 
 
