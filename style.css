@@ -1084,23 +1084,21 @@ hr {
 /* ---------------------------------- */
 footer {
   width: 100%;
-    background:url(footer.png)bottom center no-repeat;
-  background-size:cover;
-  padding:0px 0;
+  background: url(footer.png) bottom center no-repeat;
+  background-size: cover;
+  padding: 0px 0;
   /*background: #1e1e1e;*/
   /*padding: 20px 0;*/
 }
 
-
 #footerBottom {
   padding: 20px 0;
-  
   font-size: .7em;
 }
 
 footer .container {
   overflow: hidden;
-  text-transform:uppercase;
+  text-transform: uppercase;
   /*---- DISPLAY FLEX -----*/
   display: -ms-flexbox;
   display: -webkit-box;
@@ -1109,21 +1107,21 @@ footer .container {
   /*---- END DISPLAY FLEX -----*/
   /*--- JUSTIFY CONTENT ---*/
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   /*--- END JUSTIFY CONTENT ---*/
   /*------ FLEX ALIGN -----*/
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   /*------ END FLEX ALIGN -----*/
-   -ms-flex-wrap: wrap;
-       flex-wrap: wrap;
-   /* Or do it all in one line with flex flow */
-   -ms-flex-flow: row wrap;
-       flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* Or do it all in one line with flex flow */
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .footerRight {
@@ -1133,12 +1131,12 @@ footer .container {
 
 /*-------- FOOTER TEXT STYLES ---------*/
 footer, footer a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;  /* Make text and links white */
   text-decoration: none;
 }
 
 footer a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #00aaff;  /* Change the hover color to light blue */
 }
 
 /*------------ FOOTER MENU ------------*/
@@ -1160,8 +1158,9 @@ footer nav li a {
 }
 
 footer nav li a:hover {
-  /**/
+  /* Apply hover style here if needed */
 }
+
 
 /* ----------------------------------------- */
 /* -----------------TO TOP ----------------- */
