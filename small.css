@@ -99,6 +99,15 @@ body {
   padding: 10px !important;
   padding: 2.5vh 10px !important;
 }
+#navMenuWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it's above other elements */
+  background: white; /* Set a background color to avoid transparency issues */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+}
 
 #navMenuWrap {
   display: flex;
