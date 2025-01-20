@@ -259,6 +259,12 @@ html.activeNav .mobileScroll.mobileScrollStart #mobileMenu {
   display: inline-block;
   background: #222; 
 }
+#navMenuWrap img {
+  width: 50px; /* Adjust the width to make the logo smaller */
+  height: auto; /* Maintains aspect ratio */
+  margin-left: 20px; /* Adds 10px space on the left to move the logo to the right */
+}
+
 
 #mobileMenu nav {
   display: none; }
