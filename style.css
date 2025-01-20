@@ -5351,3 +5351,37 @@ ul {
 }
 
 
+/* Default styles for desktop (PC) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 0;
+  text-align: left;
+}
+
+.time {
+  padding-left: 10px;
+}
+
+/* Mobile Styles (Responsive) */
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Adjust padding to look neat on mobile */
+  td .time {
+    padding-left: 0;
+    text-align: right;
+  }
+}
