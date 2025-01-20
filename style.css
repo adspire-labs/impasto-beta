@@ -5316,5 +5316,38 @@ ul {
 
 
 
+/* Ensure the text inside <p> inside <a> stays white */
+.specials a p {
+  color: white; /* Always white text color */
+  text-decoration: none; /* Remove any underline or decoration */
+}
+
+/* Optional: Prevent hover effect for <p> when it's inside <a> */
+.specials a:hover p {
+  color: white; /* Keeps it white even when the link is hovered */
+}
+
+/* Ensure the link itself can have a hover effect */
+.specials a:hover {
+  color: rgb(255, 255, 255); /* Change the link's color to red on hover */
+}
+
+/* Ensure the text inside <p> inside <a> stays white */
+.specials a p,
+.specials a h3 {
+  color: white; /* Always white text color */
+  text-decoration: none; /* Remove any underline or decoration */
+}
+
+/* Optional: Prevent hover effect for <p> and <h3> when they're inside <a> */
+.specials a:hover p,
+.specials a:hover h3 {
+  color: white; /* Keeps them white even when the link is hovered */
+}
+
+/* Ensure the link itself can have a hover effect */
+.specials a:hover {
+  color: rgb(255, 255, 255); /* Change the link's color to red on hover */
+}
 
 
